@@ -4,8 +4,12 @@ dataset_png/
 gambar_dataset/
 CBIS-DDSM/
 
-# embedding & output
+# ignore semua .pt
 *.pt
+
+# KECUALI file ini
+!image_embeddings.pt
+!labels.pt
 
 # cache
 __pycache__/
